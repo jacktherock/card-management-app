@@ -2,6 +2,8 @@
 
 This is a Card Management application built with React that allows users to view and manage their cards. The application retrieves card data from a mock API and provides features such as filtering, searching, and pagination.
 
+https://cardmanage-app.netlify.app/
+
 ## Features
 
 - Display cards based on different tabs: "Your", "All", and "Blocked"
