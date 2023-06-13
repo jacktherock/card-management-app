@@ -11,6 +11,7 @@ const App = () => {
   const [page, setPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
   const [cardTypeFilter, setCardTypeFilter] = useState('all');
+  // eslint-disable-next-line
   const [ownerId, setOwnerId] = useState(1);
 
   const handleTabChange = (tab) => {
@@ -62,6 +63,7 @@ const App = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+    // eslint-disable-next-line
   }, []);
 
   return (
